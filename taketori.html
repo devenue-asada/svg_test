@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <style rel="stylesheet" href="./taketori.css"></style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="target">ABCabc優勝<>()＜＞（）</div>
+  </body>
+  <script src="taketori.js"></script>
+  <script type="text/javascript">
+    new Taketori()
+      .set({ fontFamily: 'serif', height: '100px' })
+      .element('#target')
+      .toVertical();
+  </script>
+</html>
